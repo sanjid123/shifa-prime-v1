@@ -1,0 +1,21 @@
+# Firebase App Hosting configuration file
+# Reference: https://firebase.google.com/docs/app-hosting/configure
+
+# Environment variables injected at build and run time
+env:
+  - variable: VITE_BACKEND
+    value: "firebase"
+  - variable: VITE_SYNC_HOUR
+    value: "22"
+  - variable: VITE_JWT_SECRET
+    value: "shifa_prime_production_jwt_signing_secret_key_v1"
+  - variable: VITE_FIREBASE_API_KEY
+    value: "AIzaSyBlkrHqT-dLQPZ8pwP9yCk11d0Xwfb1im8"
+  - variable: VITE_FIREBASE_AUTH_DOMAIN
+    value: "shifa-clinic-mkd.firebaseapp.com"
+  - variable: VITE_FIREBASE_PROJECT_ID
+    value: "shifa-clinic-mkd"
+  - variable: VITE_FIREBASE_STORAGE_BUCKET
+    value: "shifa-clinic-mkd.firebasestorage.app"
+  - variable: VITE_FIREBASE_APP_ID
+    value: "1:677315420726:web:dabe2689fbcc416b472e97"
